@@ -1,0 +1,79 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="67.31200679161259" scrolly="135.15310758713278" scale="0.6091554258258183">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="vD/Nuf|4RhBEC$$HKTdQ" x="-50" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="=.eWrV(T,)qinhW/8@8)">
+          <field name="TEXT">.botonCSS</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="gU1D^/)zeQtxrl|{%BPp">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="N8#h6{,AacPS89QjXE.X">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="G4:35p9]mqxsD?|cMPF3">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="11" editor-width="588.742951388889">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image:  url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px;</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="hmN@qVDf#i!m5Tez|?Ce">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="%T%qJ@VP}8bBH?BwDJsr">
+              <field name="TEXT">boton</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="|-$g1(J*!H1)IfqBvh?m">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="9B|vW@5Mi!^5S;iA#ih`">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="YbW73j1+wu(]~tR$7bt4">
+                  <field name="TEXT">botonCSS</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="q4dH9O$APtub8f.{[Pf(">
+                  <field name="TEXT">boton</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="p?.C0XVmhAPB=!b!W#27">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id=";,F)~UqNuSsJ/d;_Iikq">
+                      <field name="TEXT">boton</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="B!=I$gU4(X,KFI(VS$x:">
+                      <field name="FIELDNAME">Empty</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="801.6" viewport-y="37" viewport-w="546.4" viewport-h="316.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
